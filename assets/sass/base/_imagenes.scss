@@ -1,0 +1,38 @@
+.logonavbar{
+  width: 15%;
+  height: auto;
+}
+.banner{
+  background-image: url(../img/image-banner.png);
+  background-position: center;
+  height: 300px;
+}
+.fotousuario{
+  border-radius: 100%;
+  width: 7%;
+  margin-bottom: 3%;
+}
+@media only screen and (max-width: 600px) {
+  .fotousuario{
+    border-radius: 100%;
+    width: 25%;
+    padding-bottom: 10%;
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .banner{
+    width: 100%;
+  background-image: url(../img/image-banner.png);
+  background-position: center;
+  height: 60px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logonavbar{
+    width: 50%;
+  }
+}

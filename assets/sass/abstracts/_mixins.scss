@@ -1,0 +1,38 @@
+.orden{
+  display: inline-block;
+  margin-top: 5%;
+  padding-left: inherit;
+}
+
+.info-usuario{
+
+  display: flex;
+  flex-direction: row;
+  border-bottom: solid 1px #9c9c9c;
+}
+
+.card-deck {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:
+    #fff;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+}
+@media only screen and (max-width: 600px) {
+  .info-usuario{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+  }
+   }

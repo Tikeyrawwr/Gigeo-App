@@ -1,0 +1,24 @@
+.card-title{
+  font-family: "FuturaPTBold";
+  font-weight: bold;
+}
+
+.titulovideos{
+  font-family: "FuturaPT";
+  padding-top: 5%;
+  padding-bottom: 3%;
+
+}
+
+.titulouser{
+  font-family: "FuturaPTBold";
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .titulovideos{
+    font-family: "FuturaPT";
+    font-weight: bold;
+    text-align: center;
+  }
+   }

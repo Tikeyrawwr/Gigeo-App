@@ -1,0 +1,15 @@
+.orden-boton{
+  align-self: flex-end;
+   width: 50%;
+   display: inline;
+   padding-left: 61%;
+   padding-top: 25px;
+
+ }
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+   .orden-boton{
+
+      display: none;
+    }
+ }
